@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533DE08D2953BD93003F29ED /* Tawinw_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DE08C2953BD93003F29ED /* Tawinw_ProjectApp.swift */; };
+		533DE08F2953BD93003F29ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DE08E2953BD93003F29ED /* ContentView.swift */; };
+		533DE0912953BD94003F29ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533DE0902953BD94003F29ED /* Assets.xcassets */; };
+		533DE0942953BD94003F29ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533DE0932953BD94003F29ED /* Preview Assets.xcassets */; };
+		533DE09E2953BD94003F29ED /* Tawinw_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DE09D2953BD94003F29ED /* Tawinw_ProjectTests.swift */; };
+		533DE0A82953BD94003F29ED /* Tawinw_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DE0A72953BD94003F29ED /* Tawinw_ProjectUITests.swift */; };
+		533DE0AA2953BD94003F29ED /* Tawinw_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DE0A92953BD94003F29ED /* Tawinw_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533DE09A2953BD94003F29ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533DE0812953BD93003F29ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533DE0882953BD93003F29ED;
+			remoteInfo = Tawinw_Project;
+		};
+		533DE0A42953BD94003F29ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533DE0812953BD93003F29ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533DE0882953BD93003F29ED;
+			remoteInfo = Tawinw_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		533DE0892953BD93003F29ED /* Tawinw_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tawinw_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		533DE08C2953BD93003F29ED /* Tawinw_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tawinw_ProjectApp.swift; sourceTree = "<group>"; };
+		533DE08E2953BD93003F29ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		533DE0902953BD94003F29ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		533DE0932953BD94003F29ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		533DE0992953BD94003F29ED /* Tawinw_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tawinw_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		533DE09D2953BD94003F29ED /* Tawinw_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tawinw_ProjectTests.swift; sourceTree = "<group>"; };
+		533DE0A32953BD94003F29ED /* Tawinw_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tawinw_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		533DE0A72953BD94003F29ED /* Tawinw_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tawinw_ProjectUITests.swift; sourceTree = "<group>"; };
+		533DE0A92953BD94003F29ED /* Tawinw_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tawinw_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533DE0862953BD93003F29ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533DE0962953BD94003F29ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533DE0A02953BD94003F29ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533DE0802953BD93003F29ED = {
+			isa = PBXGroup;
+			children = (
+				533DE08B2953BD93003F29ED /* Tawinw_Project */,
+				533DE09C2953BD94003F29ED /* Tawinw_ProjectTests */,
+				533DE0A62953BD94003F29ED /* Tawinw_ProjectUITests */,
+				533DE08A2953BD93003F29ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533DE08A2953BD93003F29ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533DE0892953BD93003F29ED /* Tawinw_Project.app */,
+				533DE0992953BD94003F29ED /* Tawinw_ProjectTests.xctest */,
+				533DE0A32953BD94003F29ED /* Tawinw_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533DE08B2953BD93003F29ED /* Tawinw_Project */ = {
+			isa = PBXGroup;
+			children = (
+				533DE08C2953BD93003F29ED /* Tawinw_ProjectApp.swift */,
+				533DE08E2953BD93003F29ED /* ContentView.swift */,
+				533DE0902953BD94003F29ED /* Assets.xcassets */,
+				533DE0922953BD94003F29ED /* Preview Content */,
+			);
+			path = Tawinw_Project;
+			sourceTree = "<group>";
+		};
+		533DE0922953BD94003F29ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				533DE0932953BD94003F29ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		533DE09C2953BD94003F29ED /* Tawinw_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				533DE09D2953BD94003F29ED /* Tawinw_ProjectTests.swift */,
+			);
+			path = Tawinw_ProjectTests;
+			sourceTree = "<group>";
+		};
+		533DE0A62953BD94003F29ED /* Tawinw_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				533DE0A72953BD94003F29ED /* Tawinw_ProjectUITests.swift */,
+				533DE0A92953BD94003F29ED /* Tawinw_ProjectUITestsLaunchTests.swift */,
+			);
+			path = Tawinw_ProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533DE0882953BD93003F29ED /* Tawinw_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533DE0AD2953BD94003F29ED /* Build configuration list for PBXNativeTarget "Tawinw_Project" */;
+			buildPhases = (
+				533DE0852953BD93003F29ED /* Sources */,
+				533DE0862953BD93003F29ED /* Frameworks */,
+				533DE0872953BD93003F29ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tawinw_Project;
+			productName = Tawinw_Project;
+			productReference = 533DE0892953BD93003F29ED /* Tawinw_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533DE0982953BD94003F29ED /* Tawinw_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533DE0B02953BD94003F29ED /* Build configuration list for PBXNativeTarget "Tawinw_ProjectTests" */;
+			buildPhases = (
+				533DE0952953BD94003F29ED /* Sources */,
+				533DE0962953BD94003F29ED /* Frameworks */,
+				533DE0972953BD94003F29ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533DE09B2953BD94003F29ED /* PBXTargetDependency */,
+			);
+			name = Tawinw_ProjectTests;
+			productName = Tawinw_ProjectTests;
+			productReference = 533DE0992953BD94003F29ED /* Tawinw_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533DE0A22953BD94003F29ED /* Tawinw_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533DE0B32953BD94003F29ED /* Build configuration list for PBXNativeTarget "Tawinw_ProjectUITests" */;
+			buildPhases = (
+				533DE09F2953BD94003F29ED /* Sources */,
+				533DE0A02953BD94003F29ED /* Frameworks */,
+				533DE0A12953BD94003F29ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533DE0A52953BD94003F29ED /* PBXTargetDependency */,
+			);
+			name = Tawinw_ProjectUITests;
+			productName = Tawinw_ProjectUITests;
+			productReference = 533DE0A32953BD94003F29ED /* Tawinw_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533DE0812953BD93003F29ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					533DE0882953BD93003F29ED = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					533DE0982953BD94003F29ED = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 533DE0882953BD93003F29ED;
+					};
+					533DE0A22953BD94003F29ED = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 533DE0882953BD93003F29ED;
+					};
+				};
+			};
+			buildConfigurationList = 533DE0842953BD93003F29ED /* Build configuration list for PBXProject "Tawinw_Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533DE0802953BD93003F29ED;
+			productRefGroup = 533DE08A2953BD93003F29ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533DE0882953BD93003F29ED /* Tawinw_Project */,
+				533DE0982953BD94003F29ED /* Tawinw_ProjectTests */,
+				533DE0A22953BD94003F29ED /* Tawinw_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533DE0872953BD93003F29ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533DE0942953BD94003F29ED /* Preview Assets.xcassets in Resources */,
+				533DE0912953BD94003F29ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533DE0972953BD94003F29ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533DE0A12953BD94003F29ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533DE0852953BD93003F29ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533DE08F2953BD93003F29ED /* ContentView.swift in Sources */,
+				533DE08D2953BD93003F29ED /* Tawinw_ProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533DE0952953BD94003F29ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533DE09E2953BD94003F29ED /* Tawinw_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533DE09F2953BD94003F29ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533DE0AA2953BD94003F29ED /* Tawinw_ProjectUITestsLaunchTests.swift in Sources */,
+				533DE0A82953BD94003F29ED /* Tawinw_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533DE09B2953BD94003F29ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533DE0882953BD93003F29ED /* Tawinw_Project */;
+			targetProxy = 533DE09A2953BD94003F29ED /* PBXContainerItemProxy */;
+		};
+		533DE0A52953BD94003F29ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533DE0882953BD93003F29ED /* Tawinw_Project */;
+			targetProxy = 533DE0A42953BD94003F29ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		533DE0AB2953BD94003F29ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533DE0AC2953BD94003F29ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		533DE0AE2953BD94003F29ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tawinw_Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 362VC2T297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "defult.Tawinw-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		533DE0AF2953BD94003F29ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tawinw_Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 362VC2T297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "defult.Tawinw-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		533DE0B12953BD94003F29ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 362VC2T297;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "defult.Tawinw-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tawinw_Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tawinw_Project";
+			};
+			name = Debug;
+		};
+		533DE0B22953BD94003F29ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 362VC2T297;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "defult.Tawinw-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tawinw_Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tawinw_Project";
+			};
+			name = Release;
+		};
+		533DE0B42953BD94003F29ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 362VC2T297;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "defult.Tawinw-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tawinw_Project;
+			};
+			name = Debug;
+		};
+		533DE0B52953BD94003F29ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 362VC2T297;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "defult.Tawinw-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tawinw_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533DE0842953BD93003F29ED /* Build configuration list for PBXProject "Tawinw_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533DE0AB2953BD94003F29ED /* Debug */,
+				533DE0AC2953BD94003F29ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533DE0AD2953BD94003F29ED /* Build configuration list for PBXNativeTarget "Tawinw_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533DE0AE2953BD94003F29ED /* Debug */,
+				533DE0AF2953BD94003F29ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533DE0B02953BD94003F29ED /* Build configuration list for PBXNativeTarget "Tawinw_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533DE0B12953BD94003F29ED /* Debug */,
+				533DE0B22953BD94003F29ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533DE0B32953BD94003F29ED /* Build configuration list for PBXNativeTarget "Tawinw_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533DE0B42953BD94003F29ED /* Debug */,
+				533DE0B52953BD94003F29ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533DE0812953BD93003F29ED /* Project object */;
+}
